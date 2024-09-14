@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generative Story</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="machine.html">Teachable Machine</a></li>
+                <li><a href="llm.html">LLM</a></li>
+                <li><a href="story.html">Generative Story</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <figure id="story-oben">
+            <img src="images/03generative-story.svg">
+        </figure>
+
+        <h3> Was ist eine Generative Story?</h3>
+
+        <p>
+            Eine <b>Generative Story</b> ist eine Geschichte, die mithilfe von künstlicher Intelligenz
+            geschrieben wird. Insbesondere LLMs oder <b>speziell trainierte Textgeneratoren</b> helfen bei der Umsetzung. 
+            Sie verwenden Muster aus großen Datenmengen von Texten, um damit neue Erzählungen zu generieren.
+        </p>
+        <p>
+            Die <b>automatische Erstellung</b> der Geschichte ist ein typisches Merkmal. Sie wird nicht von Menschen geschrieben,
+            sondern basierend auf vorgegebenen Eingaben, wie dem Thema, die Charaktäre und/oder den Stilvorgaben generiert.
+            Es kann unendliche Variationen geben, da generative Modelle auf <b>Wahrscheinlichkeiten</b> basieren, kann jedes Mal, 
+            wenn sie genutzt werden, eine leicht oder sogar komplett andere Version der Geschichte entstehen. Diese Geschichten 
+            können sich je nach Benutzeranforderungen ändern. Außerdem hat das Modell ein Verständnis für natürlichr Sprache 
+            und strukturiert daher die Geschichte auf diesem Wissen, was zu teilweise sehr überraschend kreativen Ergebnissen 
+            führen kann.
+        </p>
+
+        <h3>Wofür wird eine Generative Story verwendet?</h3>
+
+        <div>
+            <h4>Die Anwendungsbereiche:</h4>
+                
+                <details>
+                    <summary>Unterhaltung</summary>
+                    <p class="akkordeon">
+                        Diese Geschichten können in Spielen oder interaktiven Büchern verwendet werden, damit personalisierte 
+                        und dynamische Erzählungen entstehen.<br>
+                        <b>Beispiel:</b> Dynamische Handlungsstränge in Videospielen, sowie personalisierte Abenteuer.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Marketing</summary>
+                    <p class="akkordeon">
+                        Für Werbekampagnen oder zur Erzeugung von Content, der sich auf das Publikum zuschneiden lässt, können 
+                        Generative Geschichten ebenfalls genutzt werden. <br>
+                        <b>Bespiel:</b>  Content Creation für Social Media, Websites oder E-Mail-Kampagnen, sowie Storytelling,
+                        welches ansprechende Werbegeschichten generiert.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Bildung</summary>
+                    <p class="akkordeon">
+                        Auch im Bildungssektor kann diese Art Modell ihren Platz finden. Sie können Geschichten für spezifische Lernkontexte
+                        zur Verfügung stellen oder kreative Schreibprozesse anregen.  <br>
+                        <b>Beispiel:</b> Interaktive Lernmethoden, welche dynamische Lernszenarien veranschaulichen, und kreatives Schreiben, 
+                        sowie das Feedback auf das eigene Schreiben.
+                    </p>
+                </details>
+        </div>
+
+        <h3 id="Pforten-des-universums">Generative Story am Beispiel Pforten des Universums?</h3>
+
+        <p>
+            Um den Text und die Bilder zur Geschichte <b>Pforten des Universums</b> zu generieren wurde das <b>KI-Modell ChatGPT</b> mit bestimmten Parametern 
+            gefüttert. Es wurde beschrieben, um welche Charaktäre sie sich handeln soll und unter welchen Umständen diese aufeinander treffen. 
+        </p>
+
+        <figure>
+            <img src="images/03generative-story-01.png">
+        </figure>
+
+        <p> Anschließend wurden basierend auf der generierten Geschichte und den verschiednen mit ihr einhergehenden Abschnitten die Bilder generiert. 
+            Mit der Hilfe von <b>Adobe Firefly</b> wurden diese letztendlich generiert. Der Stil sollte sich gleichbleibend wie ein roter Faden durch die Geschichte
+            ziehen. Die Benutzeroberfläche wurde im Browser an das Leseerlebnis angepasst. Die ganze Geschichte ist hier zu lesen: <b><a href="https://pforten-des-universums.netlify.app">pforten-des-universums.netlify.app</a></b>.
+        </p>
+
+        <figure>
+            <img src="images/03generative-story-02.png">
+        </figure>
+
+        <p>
+            Mit <b>Adobe Firefly</b> lassen sich Bilder auf Basis von Text generieren. Diesen Text wird auch <b>prompt</b> genannt. 
+            Zudem lässt sich ein Bild als Stil- und/oder Strukturreferenz hochladen. Effekte, Farbe und Ton, Licht und Kamerawinkel können auf der linken Seite der 
+            benutzeroberfläche bestimmt werden. 
+        </p>
+
+        <p>
+            Um die generierten Bilder schnellstmöglich im Browser auch sehen zu können, wurden diese vorher weboptimiert. Das generierte Buch liest 
+            sich in verschiedenen Kapiteln. Jedes Kapital hat ein bis drei Bilder, die den Leser noch weiter in die Welt eintauchen lassen. 
+        </p>
+
+        <div class="button-container">
+            <a href="#story-oben"><button>Zum Anfang</button></a>
+            <a href="index.html"><button>Startseite</button></a>
+        </div>
+    </main>
+
+
+    <footer>
+		<p>©Leonie Manthey 2024 Dokumentation Digitale Kommunikation</p>
+	</footer>
+</body>
+</html>

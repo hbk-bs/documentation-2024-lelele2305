@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Large Language Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="machine.html">Teachable Machine</a></li>
+                <li><a href="llm.html">LLM</a></li>
+                <li><a href="story.html">Generative Story</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <figure id="large-language-model-oben">
+            <img src="images/02large-language-model.svg">
+        </figure>
+
+            <h3> Was ist ein Large Language Model?</h3>
+            <p>
+                Ein <b>Large Language Model (LLM)</b> ist ein großes Sprachmodell, welches auf machinellem
+                Lernen basiert und das insbesondere auf neuronalen Netzen. Es wurde darauf trainiert, 
+                natürliche Sprache zu verstehen und zu generieren. LLMs haben Milliarden bis zu 
+                Hunderten von Milliarden Parametern. Je größer das Modell, desto komplexere Zusammenhänge
+                kann es dann erkennen und verarbeiten. 
+            </p>
+            <p>Trainiert werden sie mit riesigen Mengen an
+                Textdaten aus verschiedenen Quellen, wie beispielsweise Büchern, wissenschaftlichen
+                Artikel oder Webseiten. Außerdem können sie in verschiedenen Aufgaben eingesetzt 
+                werden, da sie allgemeine Muster in der Sprache erlernen und somit auch vielseitig 
+                einsetzbar sind. 
+            </p>
+
+            <h4>Ollama</h4>
+            <p>
+                Als Beispiel eines LLMs wird <b>Ollama</b> vorgestellt. 
+                Ollama ist eine Plattform, die auf lokalen Large Language Models spezialisiert ist.
+                Sie bietet die Möglichkeit, verschiedene <b>KI-Modelle</b>, darunter auch LLMs, direkt auf lokalen
+                Maschinen laufen zu lassen, ohne dass dabei eine Verbindung zu einer Cloud oder einem externen
+                Server erforderlich ist. 
+            </p>
+            <p>Viele andere KI-Dienste setzen dagegen oft auf Cloud-basierte 
+                Lösungen. Es ermöglicht, dass Nutzer und Entwickler KI-Modelle <b>lokal</b> auf ihren eigenen Geräten
+                auszuführem. Dadurch ist eine Internetverbindung für die Nutzung von LLMs umgangen. Da die Modelle 
+                lokal laufen bietet dasa außerdem einen sehr hohen <b>Datenschutz</b>, da keine Daten an extern
+                Server gesendet werden. Ollama bietet eine Auswahl an leistungsstarken KI-Modellen, die in 
+                unterschiedlichen Anwendungen wie der Textgenerierung, programmatische Aufgaben oder Bilderzeugung
+                verwendet werden können.
+            </p>
+
+            <figure>
+                <img src="images/02large-language-model-00.png">
+            </figure>
+
+            <h3>Wofür wird ein Large Language Model verwendet?</h3>
+            <p>
+                Das Large Language Model verwendet riesige Datenmengen
+                von Texten, um Sprachmuster zu lernen, und kann dann Aufgaben wie das Verfassen von 
+                Texten, Übersetzen von Sprachen, Beantworten von Fragen und vieles mehr durchführen.
+                Sie finden ihre Anwendung in Chatbots, automatisierten Übersetzungsdiensten, Textgenerierung, 
+                Programmierhilfe und vielem mehr.
+            </p>
+
+            <div>
+                <h4>Die Anwendungsbereiche:</h4>
+                    
+                    <details>
+                        <summary>Textgenerierung</summary>
+                        <p class="akkordeon">
+                            Dazu gehören Content Kreation, Kreatives Schreiben und Ghostwriting.<br>
+                            <b>Beispiele:</b> 
+                            <ul class="Liste">
+                                <li>Artikel, Blogposts, Marketinginhalte, Produktbeschreibungen</li>
+                                <li>Geschichten, Gedichte, kreatives Schreiben</li>
+                                <li>Reden, Essays, Bücher</li>
+                            </ul>
+                        </p>
+                    </details>
+    
+                    <details>
+                        <summary>Kundensupport und Chatbots</summary>
+                        <p class="akkordeon">
+                            Damit gemeint sind neben automatisierter Kundenberatung die rund um die Uhr Verfügbarkeit
+                            und die personalisierte Interaktion.<br>
+                            <b>Beispiele:</b> 
+                            <ul class="Liste">
+                                <li>Beantwortung häufig gestellter Fragen</li>
+                                <li>Unterstützung bei technischen oder allgemeinen Anfragen durch intelligente Chatbots</li>
+                                <li>Rund um die Uhr Kundenservice</li>
+                                <li>Individuelle Bedürfnisse der Nutzer berücksichtigen</li>
+                            </ul>
+                        </p>
+                    </details>
+    
+                    <details>
+                        <summary>Übersetzung und Verarbeitung</summary>
+                        <p class="akkordeon">
+                            Die Maschinelle Übersetzung, Sprachumwandlung und -analyse sind möglich.<br>
+                            <b>Beispiele:</b> 
+                            <ul class="Liste">
+                                <li>Übersetzung natürlicher Sprache in Andere</li>
+                                <li>Übersetzung in bessere Qualität der Sprache</li>
+                                <li>Text in gesprochene Sprache</li>
+                                <li>Gesprochene Sprache in Text</li>
+                                <li>Stimmungen erkennen und analysieren</li>
+                                <li>Intentionen erkennen und analysieren</li>
+                                <li>Meinung erkennen und analysieren</li>
+                            </ul>
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Programmierhilfe</summary>
+                        <p class="akkordeon">
+                            LLMs ist es möglich, Entwicklern beim Schreiben des Codes zu helfen.<br>
+                            <b>Beispiele:</b> 
+                            <ul class="Liste">
+                                <li>Automatische Code-Vervollständigung bzw. Vorschläge</li>
+                                <li>Fehlerbehebung und Suche nach Bugs/Problemen</li>
+                                <li>Code-Generierung basierend auf Textbeschreibung</li>
+                            </ul>
+                        </p>
+                    </details>
+
+                    <details>
+                        <summary>Bildung</summary>
+                        <p class="akkordeon">
+                            Sie können nicht nur Schülern beim Lernen behilflich sein, sondern ebenfalls im Unterricht Fortschritte erzielen.<br>
+                            <b>Beispiele:</b> 
+                            <ul class="Liste">
+                                <li>Personalisierte Lernunterstützung für Schüler</li>
+                                <li>Individuelle Erstellung von Übungen</li>
+                                <li>Unterrichtsstunden</li>
+                                <li>Zusammenfassungen schreiben</li>
+                            </ul>
+                        </p>
+                    </details>
+            </div>
+
+            <h3 id="fairytale-generator">Large Language Model am Beispiel Fairytale Generator</h3>
+            <p>
+                Ein mit der Hilfe von Ollama erarbeitetes Projekt ist der <b>Fairytale Generator</b>. 
+            </p>
+            <p>
+                Ist das Programm von <b>Ollama</b> herundergeladen, kann es mit Hilfe eines Werkzeugs zum Schreiben von Code durch das 
+                <b>Terminal</b> zum Laufen gebracht werden. Hier kann sich mit der gewählten Version durch den Befehl: ollama run llama3
+                ausgetauscht werden. 
+            </p>
+
+            <figure class="Symbol">
+                <img src="images/02large-language-model-01.png">
+            </figure>
+            <figure>
+                <img src="images/02large-language-model-01.1.png">
+            </figure>
+
+            <p>
+                Um das LLM in den Code der geplanten Anwendung zu implementieren, besteht der erste Schritt darin, 
+                    <pre class="code"><code>
+                        1. &lt;script type=&quot;module&quot;&gt;
+                        2.    import ollama from &quot;https://esm.sh/ollama/browser&quot;;
+                        3.    window.ollama = ollama;
+                        4.    console.log(&quot;Yes ollama is there&quot;); 
+                        5.    &lt;/script&gt;
+                    </code></pre>
+                in den head des html-codes hinzuzufügen.
+            </p>
+            <p>
+                <b>Zeile 1:</b> Der Attributwert <b>type="module"</b> wird verwendet, um dem Browser mitzuteilen, dass der
+                javaScript-Code in diesem Skript ein <b>ECMAScript-Modul</b> ist. Das Modul kann externe Abhängigkeiten
+                importieren, was in diesem Fal der <b>Ollama-Bibliothek</b> entspricht. 
+            </p>
+            <p>
+                <b>Zeile 2:</b> Der Befehl <b>import ollama from "https://esm.sh/ollama/browser";</b> importiert die <b>Ollama-Bibliothek</b>
+                von einem <b>CDN namens esm.h</b>. Dies ist ein Dienst, der es ermöglicht, <b>NPM-Pakete</b> im Browser zu nutzen. In 
+                diesem Fall wird die Bibliothek Ollama geladen, die für die Interaktion mit einem LLM über den Browser gedacht ist.
+            </p>
+            <p>
+                <b>Zeile 3:</b> Die Ollama-Bibiothek wird durch diese Zeile auf das <b>globale window-Objekt</b> gesetzt. Die Ollama-Funktion oder
+                das Objekt werden im Browser zugägnlich gemacht, sodass andere Teile des Codes auf dieses Objekt zugreifen können.
+                Dadurch steht ollama global zur Verfügung. Das ist nützlich, wenn die Bibliothek in verschiednen Skripten genutzt werden soll.
+            </p>
+            <p>
+                <b>Zeile 4:</b> Hier wird eine einfache Nachricht in der <b>Browser-Konsole</b> ausgegeben, die bestätogt, dass das Skript 
+                erfolgreich geladen wurde und die Ollama-Bibliothek vorhanden ist.
+            </p>
+
+            <p>
+                Die folgenden Bildschirmaufnahmen zeigen, mit welchen Informationen das LLM gefüttert werden kann. Im Fall des <b>Fairytale 
+                Generators</b> wurde es mit SVGs versorgt, die in einer bestimmten Anordnung vorkommen sollten. Ziel war es, eine Landschaft 
+                zu generieren. Das LLM sollte sich per Zufall eine der aufgeführten Landschaften aussuchen und auf Basis des zusätzlichen 
+                Textes eine kurze Geschichte schreiben, die aus 10 Sätzen bestehen sollte. Ein Klick auf den Button lässt eine neue zufällige 
+                Landschaft generieren, die ebenfalls eine neue auf den Inhalt der Landschaft basierende Geschichte schreibt.
+            </p>
+            <figure>
+                <img src="images/02large-language-model-02.png">
+            </figure>
+            <p>
+                Es folgt sehr viel Code, der die SVGs und deren Aufbau beschreibt.
+            </p>
+            <figure>
+                <img src="images/02large-language-model-02.1.png">
+            </figure>
+            <figure>
+                <img src="images/02large-language-model-02.2.png">
+            </figure>
+
+            <p>
+                Eine zufällige Landschaft wird mit <b>Math.random()</b> ausgewählt und dann in den 
+                landschaften-container eingefügt. Wenn <b>window.ollama</b> verfügbar ist, wird die <b>Ollama API</b> verwendet, um 
+                eine kurze Geschichte über die generierte Landschaft zu generieren. Die 
+                API-Anfrage enthält zwei Nachrichten: Eine systemweite Anweisung an das Modell und eine 
+                Benutzernachricht, die die Landschaft beschreibt. Mit der ID <b>target</b> wird die Antwort 
+                der API im HTML-Element angezeigt. 
+            </p>
+            <p>
+                Je nachdem, wie die Benutzeroberfläche gestaltet wird, kann das ganze so aussehen: 
+            </p>
+            <figure>
+                <img src="images/02large-language-model-03.png">
+            </figure>
+            <figure>
+                <img src="images/02large-language-model-03.1.png">
+            </figure>
+
+
+
+            <div class="button-container">
+                <a href="#large-language-model-oben"><button>Zum Anfang</button></a>
+                <a href="story.html"><button>Nächstes Thema</button></a>
+            </div>
+    </main>
+
+    <footer>
+		<p>©Leonie Manthey 2024 Dokumentation Digitale Kommunikation</p>
+	</footer>
+
+</body>
+</html>
