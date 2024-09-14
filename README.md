@@ -1,5 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ctJDMcM2)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=15488193)
-# DON'T FORGET THE README! Explain what I will find here. Link your projects!
+Auf dieser Website wird das zweite Semester des Grundlagenseminars digitale Kommunikation zusammengefasst und aufgeschlüsselt. 
+Die Startseite bitet eienen ersten Überblick über die Inhalte, während die drei Unterseiten, welche im Header in der Navigation zu finden sind, die drei zentrale Themen behandeln. 
+1. Teachable Machine
+2. Large Language Model
+3. Generative Story
+Diese Themen werden möglichst detailliert erklärt und durch Bildmaterial und Links visualisiert.
 
-- DONT FORGET THE LICENSE!
+Viel Spaß :)
