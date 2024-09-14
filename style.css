@@ -1,17 +1,202 @@
-* {
-  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa,
-    Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri,
-    source-sans-pro, sans-serif;
-  font-weight: bold;
+*{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-body {
-  margin: 0 auto;
-  width: 50vw;
-  height: 100vh;
+
+header{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  margin: auto;
   display: flex;
+}
+
+main{
+  max-width: 85%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color:rgb(39, 39, 39);
+  margin-bottom: 8rem;
+}
+
+body{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ min-height: 100vh;
+ margin: 0;
+}
+
+h1{
+  color: rgb(32, 82, 45);
+  width: 1000%;
+}
+
+h3{
+  margin-top: 2.5rem;
+  margin-bottom: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+h4{
+  color: rgb(32, 82, 45);  
+  font-weight: bolder;
+  font-size: larger;
+  margin: 0%;
+  padding-top: 0.5;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+
+a:hover {
+  color: rgb(32, 82, 45);
+  font-weight: 900;
+}
+
+nav {
+ width: 100%;
+ font-weight: 800;
+ display: flex;
+ justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Wichtig, um das Float-Problem zu beheben */
+}
+nav ul li {
+  flex-grow: 1; /* Lässt jedes Listenelement gleichmäßig wachsen */
+  text-align: center;
+}
+nav ul li a {
+  display: block;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+}
+nav ul li a:hover {
+
+}
+
+/*---Akkordeon-Anfang----*/
+
+summary{
+  margin: 0.2rem;
+  list-style: none;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  position: relative;
+  padding-left: 2rem;
+}
+
+summary:hover{
+  color: rgb(32, 82, 45);
+}
+
+.akkordeon{
+  padding-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url('images/00pfeil-nach-unten.svg'); /* Ersetze durch deinen Pfeil-Pfad */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::before {
+  background-image: url('images/00pfeil-nach-oben.svg'); /* Ersetze durch deinen Pfeil-Pfad */
+}
+
+/*---Akkordeon-Ende----*/
+
+.t-m-pic{
+  justify-content: left;
+  margin: 0;
+  margin-top: 2rem
+}
+
+.liste{
+  margin: 0;
+  padding: 0.2rem;
+}
+
+.Symbol{
+  max-width: 20%;
+}
+
+.code {
+text-align: left;  
+  background-color: #f4f4f4;
+  color: rgb(32, 82, 45);
+}
+
+code{
+  text-align: left;  
+  max-width: 50%;
+  font-family:'Courier New', Courier, monospace;
+  font-size: small;
+
+}
+
+footer{
+  width: 100%;
+  background-color: rgb(32, 82, 45);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+button{
+  width: auto;
+  background-color: rgb(32, 82, 45);
+  color: white;
+  border-radius: 5%;
+  border-color: rgb(32, 82, 45);
+  padding: 0.5rem;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
-h1 {
-  font-size: 5vw;
+
+button:hover{
+  font-size: large;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px; /* Optional: fügt Abstand um den Container hinzu */
+}
+
+img{
+  max-width: 100%;
+}
+
+.grau{
+  background-color:rgb(239, 239, 239);
 }
